@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 202, 133);
+    height: 100%;
+}
+
+#content {
+    background-color: white;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#content > div {
+    width: 90%;
+    margin: 20px;
+}
+
+img {
+ width: 400px;
+}
+
+p {
+    width: 400px;
+    font-size: 18px;
+    text-align: center;
+}
+nav {
+    background-color: brown;
+    display: flex;
+    height: 8vh;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+}
+
+button {
+    height: 6vh;
+    width: 10vw;
+    border-radius: 10px;
+    background-color: wheat;
+}
+
+button:active{
+    background-color: orangered;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 15px;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+li {
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+
+li > p {
+    width: auto;
+    margin: 0;
+}
+.home {
+    background-color: orangered;
+}
+.dots {
+    flex: 1;
+    border-bottom: dotted 2px black;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+textarea {
+    grid-column: span 2;
+    width: 25vw;
+    justify-self: center;
+    height: 15vh;
+}
+
+.socials {
+    display: grid;
+    grid-template-columns: 9vw 9vw;
+    grid-template-rows: 9vw 9vw;
+    justify-content: center;
+    gap: 15px;
+}
+
+.socials > a > div {
+    border: 1px solid black;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    height: 100%;
+}
+
+.socials > a > div > img {
+    width: 5vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+.socials > a > div:hover {
+    background-color: rgb(255, 202, 133);;
+}
+
+span {
+    color: black;
+}
+
+form {
+    background-color: rgb(190, 190, 190);
+    padding: 15px;
+    border-radius: 12px;
+}
+
+textarea{
+    resize: none;
+    height: 10vh;
+    width: 100%;
+    flex: 1 ;
+}
+
+.submit {
+    display: flex;
+    grid-column: span 2;
+    align-items: center;
+    gap: 10px;
+}
+
+.submit > button {
+    width: 5vw;
+    font-weight: bold;
+    height: 5vw;
+    border-radius: 20px;
+}
+
+#content .dishes {
+    background-color: gray;
+    margin: 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 34px;
+    row-gap: 10px;
+}
+
+
+.dishes > div > img {
+    width: 250px;
+}
+
+.dishes > h2 {
+    grid-column: span 2;
+}
+
+.dishes > div {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    height: 90%;
+    box-shadow: 0px 0px 19px 0px rgba(179,179,179,1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+h4 {
+    margin: 15px;
+    font-size: 24px;
+}
+
+.card > p {
+    color: rgb(82, 82, 82);
+    font-size: 18px;
+}
